@@ -9,3 +9,7 @@ def turn_count(board)
   
   x_count + o_count
 end
+
+def current_player(board)
+end
+
