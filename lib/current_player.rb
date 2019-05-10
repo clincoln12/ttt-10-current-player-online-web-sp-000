@@ -1,10 +1,11 @@
 def turn_count(board)
   
   counter = 0
-  top_end = 9  
+  max = 9  
   
   board.each do |turn|
-    puts "X"
+    if |turn| == "X" || "O"
+    counter =+ 1
     
   end
 end
